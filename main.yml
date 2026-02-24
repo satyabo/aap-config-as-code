@@ -1,6 +1,6 @@
 ---
 - name: config as code demo for AAP
-  hosts: localhost
+  hosts: all
   gather_facts: false
   vars:
     controller_user: code
